@@ -1,0 +1,104 @@
+{
+  "personal" : {
+    "name": "Kartik Kumar Swarnkar",
+    "tech": "Full Stack Developer (MERN Stack)",
+    "aboutus": "I specialize in utilizing MERN Stack to build modern web applications. I have expertise in designing and implementing APIs, managing server-side logic, integrating frontend and backend components, and optimizing application performance",
+    "email": "",
+    "contact": ""
+  },
+  "about": [
+    "Software Engineer possessing Comprehensive 5 years of experience as IT Professional",
+    "3+ years of experience as Node Js Developer",
+    "Hands on experience developing web-based applications with Node Js, Express in specific with React Js framework & Redux library.",
+    "Experience on Cross Platform Server & Client-Server side applications design and development using Javascript language",
+    "Experience on ORACLE, SQL, MySQL, MongoDB & SQL Server concepts. And DB Design, DB normalization and writing SQL queries."
+  ],
+  "socialMedia": [
+    {
+      "name": "github",
+      "link": "https://github.com/codeincrypt",
+      "icon": "fa-github"
+    },
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/codeincrypt",
+      "icon": "fa-linkedin-square"
+    },
+    {
+      "name": "instagram",
+      "link": "https://www.instagram.com/karthikswarnkar",
+      "icon": "fa-instagram"
+    },
+    {
+      "name": "attatchment",
+      "link": "https://drive.google.com/file/d/1IL5SgLvlhJNnD2sZiNN8i_v1915OQ1Aw/view?usp=drive_link",
+      "icon": "fa-paperclip"
+    }
+  ],
+  "workExperience" : [
+    {
+      "position" : "Node Js & Blockchain Developer (React Js)",
+      "organisation" : "Hashcash Consultants",
+      "date" : "AUG 2021 - PRESENT",
+      "summary" : [
+        "Created & Implemented RESTful API for Blockchain Exchange services",
+        "Creating detailed functional specifications, work-flow diagrams & relevant documentation.",
+        "Planning, Designing, Implementing and maintenance of API count & rate limit based applications",
+        "Developed a support system in React & Node Js for generating issues tickets",
+        "Developed Newsletter (Subscriber) Marketing Web Application in React, Node Js & MySQL",
+        "Developed Application, Server & Logs monitoring in React & Node Js"
+      ],
+      "technology" : [
+        "Node Js", "React Js", "Express", "MySQL", "Oracle", "Ubuntu", "Git", "Bitbuket", "Jira"
+      ]
+    },
+    {
+      "position" : "Full Stack Developer (MERN Stack)",
+      "organisation" : "EZYONE Digital Systems Pvt. Ltd",
+      "date" : "NOV 2019 - JULY 2021",
+      "summary" : [
+        "Developed the frontend in React Js using REST API built in Node Js which handles around 30K inventory system merchant users.",
+        "Work on Paytm, Razorpay & PayU Payment Gateway.",
+        "Work on DMT & UPI Payment System, Recharge & Bill Payment API",
+        "Developed a support system in React & Node Js for generating issues tickets"
+      ],
+      "technology" : [
+        "Node Js", "React Js", "Express", "Socket.io", "MySQL", "CentOS", "Git"
+      ]
+    }
+  ],
+  "projects" : [
+    {
+      "name" : "",
+      "summary" : ["a","b"],
+      "technology" : ["Bitbuket"]
+    }
+  ],
+  "education" : [
+    {
+      "degree" :"Bachelor's in Computer Application",
+      "college" :"BNMU - Purnia, Bihar",
+      "year" :"July 2015 to July 2018"
+    },
+    {
+      "degree" :"Higher Secondary (12th Pass) in Science",
+      "college" :"BSEB - Purnia, Bihar",
+      "year" :"June 2013 to June 2015"
+    },
+    {
+      "degree" :"Secondary (10th)",
+      "college" :"BSEB - Purnia, Bihar (Hindi, English, Math, Science, Social Science, Sanskrit)",
+      "year" :"March 2012 to March 2013"
+    }
+  ],
+  "language" : [
+    {
+      "name" :"Hindi",
+      "level" :"Proficient"
+    },
+    {
+      "name" :"English",
+      "level" :"Intermediate"
+    }
+  ]
+}
