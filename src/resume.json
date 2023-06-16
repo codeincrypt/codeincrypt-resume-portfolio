@@ -49,7 +49,7 @@
         "Developed Application, Server & Logs monitoring in React & Node Js"
       ],
       "technology" : [
-        "Node Js", "React Js", "Express", "MySQL", "Oracle", "Ubuntu", "Git", "Bitbuket", "Jira"
+        "Node Js", "React Js", "Express", "MySQL", "Oracle", "Ubuntu", "Git", "Bitbuket", "Jira", "Apache"
       ]
     },
     {
@@ -63,7 +63,7 @@
         "Developed a support system in React & Node Js for generating issues tickets"
       ],
       "technology" : [
-        "Node Js", "React Js", "Express", "Socket.io", "MySQL", "CentOS", "Git"
+        "Node Js", "React Js", "Express", "Socket.io", "MySQL", "CentOS", "Git", "Apache"
       ]
     }
   ],
@@ -74,14 +74,19 @@
       "technology" : ["React Js", "Netlify"]
     },
     {
+      "name" : "Resume (Portfolio)",
+      "summary" : ["Created a Resume portfolio responsive website using React Js and deployed in Netlify using CI/CD"],
+      "technology" : ["React Js", "Netlify"]
+    },
+    {
       "name" : "ChatApp (Project)",
       "summary" : ["A Chat Application built in MERN Stack"],
-      "technology" : ["Node Js", "Express", "React Js", "Socket.io", "MySQL", "Ubuntu"]
+      "technology" : ["Node Js", "Express", "React Js", "Socket.io", "MySQL", "Ubuntu", "Apache"]
     },
     {
       "name" : "E-Commerce (Project)",
       "summary" : ["An E-commerce project built in MERN Stack with Real time data built on Socket.io"],
-      "technology" : ["Node Js", "Express", "React Js", "Socket.io", "MySQL", "Ubuntu"]
+      "technology" : ["Node Js", "Express", "React Js", "Socket.io", "MySQL", "Ubuntu", "Apache"]
     }
   ],
   "skills": [

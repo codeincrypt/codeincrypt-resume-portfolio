@@ -60,7 +60,7 @@ function App() {
 
                 <div className="margin2">
                   {data.socialMedia.map((item, index) => (
-                    <a target="_blank" href={item.link} class="fa-stack">
+                    <a target="_blank" rel="noreferrer" href={item.link} class="fa-stack">
                       <i class={`fa ${item.icon} default-color`}></i>
                     </a>
                   ))}
