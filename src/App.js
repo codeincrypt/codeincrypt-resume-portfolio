@@ -29,38 +29,43 @@ function App() {
               <div className="sidebarcenter">
                 <h1 className="name">{data.personal.name}</h1>
                 <h4 className="stacks">{data.personal.tech}</h4>
-                {/* <p className="paragraph">{data.personal.aboutus}</p> */}
+                <p className="paragraph">{data.personal.aboutus}</p>
 
                 <ul className="mylist-array margintop">
-                  <li className="mylist items-center">
+                  <a href="#summary" className="mylist">
                     <span className="nav-indicator"></span>
                     <span className="nav-text"> About </span>
-                  </li>
-                  <li className="mylist items-center">
+                  </a>
+                  <a href="#work-experience" className="mylist">
                     <span className="nav-indicator"></span>
                     <span className="nav-text"> Work Experience </span>
-                  </li>
-                  <li className="mylist items-center">
+                  </a>
+                  <a href="#projects" className="mylist">
                     <span className="nav-indicator"></span>
                     <span className="nav-text"> Projects </span>
-                  </li>
-                  <li className="mylist items-center">
-                    <span className="nav-indicator"></span>
-                    <span className="nav-text"> Skills </span>
-                  </li>
-                  <li className="mylist items-center">
+                  </a>
+                  <a href="#education" className="mylist">
                     <span className="nav-indicator"></span>
                     <span className="nav-text"> Education </span>
-                  </li>
-                  <li className="mylist items-center">
+                  </a>
+                  <a href="#skills" className="mylist">
+                    <span className="nav-indicator"></span>
+                    <span className="nav-text"> Skills </span>
+                  </a>
+                  <a href="#language" className="mylist">
                     <span className="nav-indicator"></span>
                     <span className="nav-text"> Language </span>
-                  </li>
+                  </a>
                 </ul>
 
                 <div className="margin2">
                   {data.socialMedia.map((item, index) => (
-                    <a target="_blank" rel="noreferrer" href={item.link} class="fa-stack">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href={item.link}
+                      class="fa-stack"
+                    >
                       <i class={`fa ${item.icon} default-color`}></i>
                     </a>
                   ))}
@@ -107,7 +112,7 @@ function App() {
               ))}
             </div>
 
-            <div id="education" className="education margintop">
+            <div id="projects" className="projects margintop">
               <h4 className="title">PROJECTS</h4>
               {data.projects.map((item, index) => (
                 <div className="main-card">

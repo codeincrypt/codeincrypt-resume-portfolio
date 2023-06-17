@@ -2,7 +2,8 @@
   "personal" : {
     "name": "Kartik Kumar Swarnkar",
     "tech": "Full Stack Developer (MERN Stack)",
-    "aboutus": "I specialize in utilizing MERN Stack to build modern web applications. I have expertise in designing and implementing APIs, managing server-side logic, integrating frontend and backend components, and optimizing application performance",
+    "aboutus": "I specialize in utilizing MERN Stack to build modern web applications.",
+    "aboutus1": "I have expertise in designing and implementing APIs, managing server-side logic, integrating frontend and backend components, and optimizing application performance",
     "email": "",
     "contact": ""
   },
@@ -11,7 +12,7 @@
     "3+ years of experience as Node Js Developer",
     "Hands on experience developing web-based applications with Node Js, Express in specific with React Js framework & Redux library.",
     "Experience on Cross Platform Server & Client-Server side applications design and development using Javascript language",
-    "Experience on ORACLE, SQL, MySQL, MongoDB & SQL Server concepts. And DB Design, DB normalization and writing SQL queries."
+    "Experience on ORACLE, MySQL, MongoDB & SQL Server concepts. Also DB Design, DB normalization and writing SQL queries."
   ],
   "socialMedia": [
     {
@@ -49,7 +50,7 @@
         "Developed Application, Server & Logs monitoring in React & Node Js"
       ],
       "technology" : [
-        "Node Js", "React Js", "Express", "MySQL", "Oracle", "Ubuntu", "Git", "Bitbuket", "Jira", "Apache"
+        "Node Js", "Web3", "Ethereum", "React Js", "Express", "MySQL", "Oracle", "Ubuntu", "Git", "Bitbuket", "Jira", "Apache", "Crypto"
       ]
     },
     {
@@ -93,7 +94,7 @@
     {"name" :"Blockchain", "details":"Web3, Ethereum, Stellar, Cardano, Algorand, Bitcoin & More Cryptocurrencies"},
     {"name" :"Cryptography", "details":"Public key encryption, Private key encryption, Hashing"},
     {"name" :"Programming Languages", "details":"Javascript, Node Js (Server Side), Redux, PHP, Socket.io, Blockchain, Cryptocurrency Network, Web3"},
-    {"name" :"UI Web Technologies : HTML, CSS, JavaScript, ES6, Bootstrap, Material UI, React Bootstrap"},
+    {"name" :"UI Web Technologies", "details" :"HTML, CSS, JavaScript, ES6, Bootstrap, Material UI, React Bootstrap"},
     {"name" :"Databases", "details":"MySQL, MongoDB, Oracle DB"},
     {"name" :"Version Controls", "details":"Git, Github, Bitbucket"},
     {"name" :"Frameworks / Library", "details":"Codeigniter (MVC), React Js, Redux"},

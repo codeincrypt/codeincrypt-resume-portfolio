@@ -40,7 +40,7 @@ body {
 }
 
 .name {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1;
     font-weight : 600;
 }
@@ -61,6 +61,7 @@ p {
   margin: 0;
   padding: 0;
 }
+
 .lists {
   list-style: none;
   margin: 0;
@@ -117,15 +118,30 @@ p {
   transition-duration: .15s;
 }
 
-.items-center {
+a {
+  text-decoration: none;
+}
+
+.mylist {
   align-items: center;
   vertical-align: middle;
+  display: flex;
+  margin: 8px 0px 8px 0px;
 }
 
 .nav-indicator {
-  display: inline;
-  width: 4rem;
-  background-color: red;
+  width: 1rem;
+  height: 3px;
+  background-color: #64748b;
+  margin-right: 10px;
+  transition:0.2s ease-in-out;
+}
+
+a:hover .nav-indicator {
+  width: 2rem;
+  height: 3px;
+  background-color: #FFF;
+  margin-right: 10px;
 }
 
 .nav-text {
@@ -173,6 +189,7 @@ p {
 
 .card-text4 {
   font-size: 15px;
+  font-weight: 300;
   line-height: 1.5;
   color: #d0d6de;
 }
@@ -206,17 +223,24 @@ p {
 }
 
 .chips {
-  padding: 5px 12px 5px 12px;
+  padding: 3px 12px 3px 12px;
   line-height: 1.25rem;
   font-weight: 500;
-  margin: 3px 8px 3px 0px;
+  margin: 2px 5px 2px 0px;
   border-radius: 9999px;
-  font-size: 12px;
+  font-size: 11px;
   border:0;
   display: inline;
   color: #56d5cc;
   background-color: rgba(45,212,191,.1);
+  /* box-shadow: 0px 10px 5px rgb(0 0 0 / 50%), 0 1px 2px rgb(0 0 0 / 24%) !important;
+  transition: all 0.5s cubic-bezier(.25, .8, .25, 1) !important; */
 }
+/* 
+.chips:hover {
+  box-shadow: -15px 15px 28px #171717, 0 10px 10px #171717 !important;
+  transform: translateY(-5px) !important;
+} */
 
 .title {
   font-size: 16px;
