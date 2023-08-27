@@ -82,10 +82,16 @@
       "link": "https://codeincrypt-image-processing.netlify.app/"
     },
     {
+      "name" : "Password Generator",
+      "summary" : ["Need a password? Try our Strong Password Generator Generate secure, random passwords."],
+      "technology" : ["React Js", "Netlify"],
+      "link": "https://codeincrypt-password-generator.netlify.app/"
+    },
+    {
       "name" : "Resume (Portfolio)",
       "summary" : ["Created a Resume portfolio responsive website using React Js and deployed in Netlify using CI/CD"],
       "technology" : ["React Js", "Netlify"],
-      "link":"https://codeincrypt-resume.netlify.app/"
+      "link":"https://codeincrypt.netlify.app/"
     },
     {
       "name" : "ChatApp (Project)",
