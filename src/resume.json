@@ -50,7 +50,7 @@
         "Developed Application, Server & Logs monitoring in React & Node Js"
       ],
       "technology" : [
-        "Node Js", "Web3", "Ethereum", "React Js", "Express", "MySQL", "Oracle", "Ubuntu", "Git", "Bitbuket", "Jira", "Apache", "Crypto"
+        "Node Js", "React Js", "Express", "MySQL", "Oracle", "Grafana", "Prometheus", "Web3", "Ethereum", "Ubuntu", "Git", "Bitbuket", "Jira", "Apache", "Crypto"
       ]
     },
     {
@@ -70,24 +70,34 @@
   ],
   "projects" : [
     {
+      "name" : "Exchange Admin UI",
+      "summary" : ["A modern & user-friendly Binance admin UI layout with various components such as navigation menus, data tables, charts, and forms, enabling efficient monitoring, organization, and interaction with backend systems, enhancing user experience and simplifying administrative tasks."],
+      "technology" : ["React Js", "Netlify"],
+      "link": "https://exchange-adminui.netlify.app/"
+    },
+    {
       "name" : "Image Processing",
       "summary" : ["Resize your images, either JPEG or PNG images. Serve high-quality images in the right size to reduce page weight and load time."],
-      "technology" : ["React Js", "Netlify"]
+      "technology" : ["React Js", "Image Processing", "Netlify"],
+      "link": "https://codeincrypt-image-processing.netlify.app/"
     },
     {
       "name" : "Resume (Portfolio)",
       "summary" : ["Created a Resume portfolio responsive website using React Js and deployed in Netlify using CI/CD"],
-      "technology" : ["React Js", "Netlify"]
+      "technology" : ["React Js", "Netlify"],
+      "link":"https://codeincrypt-resume.netlify.app/"
     },
     {
       "name" : "ChatApp (Project)",
       "summary" : ["A Chat Application built in MERN Stack"],
-      "technology" : ["Node Js", "Express", "React Js", "Socket.io", "MySQL", "Ubuntu", "Apache"]
+      "technology" : ["Node Js", "Express", "React Js", "Socket.io", "MySQL", "Ubuntu", "Apache"],
+      "link":""
     },
     {
       "name" : "E-Commerce (Project)",
       "summary" : ["An E-commerce project built in MERN Stack with Real time data built on Socket.io"],
-      "technology" : ["Node Js", "Express", "React Js", "Socket.io", "MySQL", "Ubuntu", "Apache"]
+      "technology" : ["Node Js", "Express", "React Js", "Socket.io", "MySQL", "Ubuntu", "Apache"],
+      "link":""
     }
   ],
   "skills": [

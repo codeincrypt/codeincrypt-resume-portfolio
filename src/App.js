@@ -3,6 +3,7 @@ import React from "react";
 import data from "./resume.json";
 
 function App() {
+  // eslint-disable-next-line
   const [cursorStyle, setCursorStyle] = React.useState({});
 
   const handleMouseMove = (e) => {
@@ -116,7 +117,22 @@ function App() {
               <h4 className="title">PROJECTS</h4>
               {data.projects.map((item, index) => (
                 <div className="main-card">
-                  <h4 className="card-text1">{item.name}</h4>
+                  <span className="">
+                    <span className="card-text1">{item.name}</span>
+                    <span className="float-right" style={{float: 'right'}}>
+                      {item.link ? (
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href={item.link}
+                          className="chips"
+                        >
+                          View Project
+                        </a>
+                      ) : null}
+                    </span>
+                  </span>
+
                   <ul className="lists">
                     {item.summary.map((item, index) => (
                       <li>{item}</li>
