@@ -70,6 +70,12 @@
   ],
   "projects" : [
     {
+      "name" : "GeeksForGeeks",
+      "summary" : ["Sample UI Template project of GeeksForGeeks build in Next Js, MCQ, Course & More."],
+      "technology" : ["Next Js", "React Js", "Netlify"],
+      "link": "https://codeincrypt-geeksforgeeks.netlify.app/"
+    },
+    {
       "name" : "Exchange Admin UI",
       "summary" : ["A modern & user-friendly Binance admin UI layout with various components such as navigation menus, data tables, charts, and forms, enabling efficient monitoring, organization, and interaction with backend systems, enhancing user experience and simplifying administrative tasks."],
       "technology" : ["React Js", "Netlify"],
@@ -108,14 +114,14 @@
   ],
   "skills": [
     {"name" :"Blockchain", "details":"Web3, Ethereum, Stellar, Cardano, Algorand, Bitcoin & More Cryptocurrencies"},
-    {"name" :"Cryptography", "details":"Public key encryption, Private key encryption, Hashing"},
+    {"name" :"Cryptography", "details":"Encryption, Hashing"},
     {"name" :"Programming Languages", "details":"Javascript, Node Js (Server Side), Redux, PHP, Socket.io, Blockchain, Cryptocurrency Network, Web3"},
     {"name" :"UI Web Technologies", "details" :"HTML, CSS, JavaScript, ES6, Bootstrap, Material UI, React Bootstrap"},
     {"name" :"Databases", "details":"MySQL, MongoDB, Oracle DB"},
     {"name" :"Version Controls", "details":"Git, Github, Bitbucket"},
-    {"name" :"Frameworks / Library", "details":"Codeigniter (MVC), React Js, Redux"},
+    {"name" :"Frameworks / Library", "details":"Codeigniter (MVC), React Js, Next Js, Redux"},
     {"name" :"Web / Application Servers", "details":"Apache, HTTP Web Server."},
-    {"name" :"Cloud Platform", "details":"Dedicated Ubuntu / CentOs Linux Server."},
+    {"name" :"Cloud Platform", "details":"AWS Cloud, AWS S3, Dedicated Ubuntu / CentOs Linux Server"},
     {"name" :"IDE Editor", "details":"Visual Studio Code, Sublime Text3, Notepad++, Atom, Bracket"}
   ],
   "education" : [
