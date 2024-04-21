@@ -1,0 +1,118 @@
+.terminal{
+  animation-name: fadeOut;
+  animation-duration: 1ms;
+  animation-fill-mode: forwards;
+  animation-delay: 10000ms;
+}
+
+.terminal p {
+  display: block;
+  width: 0px;
+  margin: 0;
+  font-size:1.2rem;
+  color: #20C20E;
+  overflow: hidden;
+  font-family: monospace;
+  white-space: nowrap;
+  animation-name: writeText;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+}
+
+.terminal h1{
+  text-align: center;
+  opacity: 0;
+  color: white;
+  font-family:sans-serif;
+  animation-name: fadeIn;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 10500ms;
+}
+
+.delay1 {
+  animation-delay: 2000ms;
+}
+.delay2 {
+  animation-delay: 3000ms;
+}
+.delay3 {
+  animation-delay: 4000ms;
+}
+.delay4 {
+  animation-delay: 5000ms;
+}
+.delay5 {
+  animation-delay: 6000ms;
+}
+.delay6 {
+  animation-delay: 7000ms;
+}
+.delay7 {
+  animation-delay: 8000ms;
+}
+.delay8 {
+  animation-delay: 9000ms;
+}
+
+/* Standard syntax */
+@keyframes writeText {
+  from {
+    width: 0;
+  }
+  to {
+    width: 350px;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#loader {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+
+#loaded {
+  height: 2px;
+  width: 0px;
+  background-color: #20C20E;
+  animation-name: load;
+  animation-duration: 3000ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 70%;
+  }
+  70% {
+    width: 100%;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}

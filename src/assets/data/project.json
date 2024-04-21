@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Opensea Next Js (API)",
+    "image": "admin6.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-opensea-nextjs.netlify.app/",
+    "githubLink": "",
+    "tools": ["Next Js", "Javascript", "Netlify"]
+  },
+  {
+    "name": "Image Processing",
+    "image": "admin7.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-image-processing.netlify.app/",
+    "githubLink": "",
+    "tools": ["React Js", "Javascript", "Netlify"]
+  },
+  {
+    "name": "Strong Password Generator",
+    "image": "admin11.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-password-generator.netlify.app/",
+    "githubLink": "",
+    "tools": ["React Js", "Javascript", "Netlify"]
+  },
+  {
+    "name": "Opensea HTML Template",
+    "image": "admin12.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-opensea-template.netlify.app",
+    "githubLink": "",
+    "tools": ["HTML", "CSS", "Javascript", "Netlify"]
+  },
+  {
+    "name": "Crypto currency admin UI",
+    "image": "admin5.jpg",
+    "description": "",
+    "projectLink": "https://exchange-adminui.netlify.app/",
+    "githubLink": "",
+    "tools": ["React Js", "Javascript", "Netlify"]
+  },
+  {
+    "name": "Geeks for Geeks UI",
+    "image": "admin10.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-geeksforgeeks.netlify.app/",
+    "githubLink": "",
+    "tools": ["Next Js", "Javascript", "Netlify"]
+  },
+  {
+    "name": "Cosmetic Ecommerce UI",
+    "image": "admin3.jpg",
+    "description": "",
+    "projectLink": "https://elegente-nextjs.netlify.app/",
+    "githubLink": "",
+    "tools": ["Next Js", "Javascript", "Netlify"]
+  },
+  {
+    "name": "Random Password",
+    "image": "admin4.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-randompassword.netlify.app/",
+    "githubLink": "",
+    "tools": ["HTML", "CSS", "Javascript", "Netlify"]
+  },
+  {
+    "name": "Text To Speech",
+    "image": "admin9.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-texttovoice.netlify.app/",
+    "githubLink": "",
+    "tools": ["HTML", "CSS", "Javascript", "Netlify"]
+  },
+  {
+    "name": "Weather App",
+    "image": "admin8.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-weather-app.netlify.app/",
+    "githubLink": "",
+    "tools": ["HTML", "CSS", "Javascript", "API", "Netlify"]
+  }
+]
