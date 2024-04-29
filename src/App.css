@@ -63,6 +63,21 @@ p {
   color: #8d9eb5;
 }
 
+h2 {
+  font-weight: 800;
+  background: linear-gradient(
+        121.57deg,
+        rgb(255, 255, 255) 18.77%,
+        rgba(255, 255, 255, 0.66) 60.15%
+      )
+      text;
+    -webkit-text-fill-color: transparent;
+}
+
+h6 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .mylist-array {
   list-style: none;
   margin: 0;
@@ -348,4 +363,9 @@ a:hover .nav-indicator {
   background-color: #2a31425c;
   box-shadow: 0px 0px 153px white;
   /* animation: cursorAnimation 1s infinite; */
+}
+
+.tech svg{
+  margin-right: 20px;
+  font-size: 40px;
 }

@@ -1,6 +1,6 @@
 import "./../App.css";
 import React from "react";
-import data from "./../resume.json";
+import data from "../assets/data/resume.json";
 
 const Resume = () => {
   // eslint-disable-next-line

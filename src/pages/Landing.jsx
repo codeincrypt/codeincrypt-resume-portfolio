@@ -1,24 +1,37 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import project from "../assets/data/project.json"
+import project from "../assets/data/project.json";
 import Loader from "../components/Loader";
-const Landing = () => {
+import { FaReact, FaNodeJs } from "react-icons/fa";
+import {
+  SiNextdotjs,
+  SiMysql,
+  SiMongodb,
+  SiPostgresql,
+  SiJavascript,
+  SiAmazonaws,
+  SiTypescript,
+  SiGrafana,
+  SiNestjs,
+  SiPrometheus, SiAntdesign, SiOracle
+} from "react-icons/si";
+import { BsFillBootstrapFill } from "react-icons/bs";
 
-  const [loading, setLoading] = useState(true);
+const Landing = () => {
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false)
-    }, 8000)
-  }, [])
+      setLoading(false);
+    }, 9000);
+  }, []);
 
-  
-  if(loading){
-    return ( 
+  if (loading) {
+    return (
       <div className="App">
         <Loader />
       </div>
-     )
+    );
   }
 
   return (
@@ -36,7 +49,7 @@ const Landing = () => {
             collaborate to an open source projects.
           </p>
 
-          <Link className="main-btn" to="https://github.com/codeincrypt">
+          <Link className="main-btn" to="/resume">
             View More
           </Link>
         </div>
@@ -47,6 +60,45 @@ const Landing = () => {
             I've worked with a range of Programming Languages and web
             development world from Design to Back-End
           </p>
+
+          <div className="row tech mb-5">
+            <div className="col-lg-4 mb-5">
+              <h2 className="font-weight-bold">Front-End</h2>
+              <h6 className="mb-3">
+                Experiece with Javascript & Typescript React Js & Next Js
+              </h6>
+              <FaReact title="React Js" />
+              <SiNextdotjs title="Next Js" />
+              <SiAntdesign title="Ant Design" />
+              <BsFillBootstrapFill title="Bootstrap, React Bootsrap" />
+            </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-4 mb-5">
+              <h2 className="font-weight-bold">Back-End</h2>
+              <h6 className="mb-3">Experiece with Javascript & Typescript in Node Js </h6>
+              <FaNodeJs title="Node Js" />
+              <SiNestjs title="Nest Js" />
+              <SiTypescript title="Typescript" />
+              <SiJavascript title="Javascript" />
+            </div>
+
+            <div className="col-lg-4 mb-5">
+            <h2 className="font-weight-bold">Database</h2>
+              <h6 className="mb-3">Experiece with MySQL, MongoDB, Postgres DB </h6>
+              <SiMysql  title="Mysql DB" />
+              <SiMongodb title="Mongo DB" />
+              <SiPostgresql title="Postgresql DB" />
+              <SiOracle title="Oracle DB" />
+            </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-4 mb-5">
+            <h2 className="font-weight-bold">Cloud & Devops</h2>
+              <h6 className="mb-3">Experiece with AWS S3, EC2, Secret Manager </h6>
+              <SiAmazonaws />
+              <SiGrafana />
+              <SiPrometheus />
+            </div>
+          </div>
         </div>
 
         <div>
@@ -59,7 +111,7 @@ const Landing = () => {
           <div className="col-lg-12 mt-4">
             <div className="row">
               {project.map((item, index) => (
-                <div className="col-lg-4 mb-4" key={index}>
+                <div className="col-lg-4 mb-4" key={item.name}>
                   <div className="card p-0">
                     <img
                       src={require(`./../assets/images/${item.image}`)}
@@ -70,18 +122,23 @@ const Landing = () => {
                       <h4>{item.name}</h4>
                       <p>{item.description}</p>
                       <div className="text-right mt-4">
-                      {item.tools.map((t, index) => (
-                        <button type="button" className="chips">{t}</button>
-                      ))}
-                        </div>
+                        {item.tools.map((t, index) => (
+                          <button type="button" className="chips">
+                            {t}
+                          </button>
+                        ))}
+                      </div>
                       <div className="text-right mt-4">
                         {item.githubLink ?? (
-                          <Link to={item.githubLink} className="btn btn-view mr-2" >
+                          <Link
+                            to={item.githubLink}
+                            className="btn btn-view mr-2"
+                          >
                             Github
                           </Link>
                         )}
                         {item.projectLink !== "" ? (
-                          <Link to={item.projectLink} className="btn btn-view" >
+                          <Link to={item.projectLink} className="btn btn-view">
                             Project
                           </Link>
                         ) : null}
