@@ -9,6 +9,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* ::selection, h1, h2, h3, h4{
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(86, 107, 126) !important;
+} */
 
 body {
   /* font-family: "Outfit", sans-serif; */
@@ -368,4 +372,13 @@ a:hover .nav-indicator {
 .tech svg{
   margin-right: 20px;
   font-size: 40px;
+}
+
+.top-border {
+  display: block;
+  width: 64px;
+  height: 6px;
+  border-radius: 10px;
+  background: linear-gradient(270deg, rgb(22 82 100) 0%, rgb(179 205 255) 100%);
+  margin: 2rem 0px;
 }

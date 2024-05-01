@@ -13,9 +13,12 @@ import {
   SiTypescript,
   SiGrafana,
   SiNestjs,
-  SiPrometheus, SiAntdesign, SiOracle
+  SiPrometheus,
+  SiAntdesign,
+  SiOracle,
 } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
+import Header from "../components/Header";
 
 const Landing = () => {
   const [loading, setLoading] = useState(false);
@@ -36,6 +39,7 @@ const Landing = () => {
 
   return (
     <div className="App">
+      <Header />
       <div className="container containers margintop">
         <div className="margintop">
           <h1 className="main-title">
@@ -54,7 +58,8 @@ const Landing = () => {
           </Link>
         </div>
 
-        <div>
+        <div className="margintop">
+          <span className="top-border"></span>
           <h1 className="main-title mt-5">Technologies</h1>
           <p className="main-para">
             I've worked with a range of Programming Languages and web
@@ -75,7 +80,9 @@ const Landing = () => {
             <div className="col-lg-1"></div>
             <div className="col-lg-4 mb-5">
               <h2 className="font-weight-bold">Back-End</h2>
-              <h6 className="mb-3">Experiece with Javascript & Typescript in Node Js </h6>
+              <h6 className="mb-3">
+                Experiece with Javascript & Typescript in Node Js
+              </h6>
               <FaNodeJs title="Node Js" />
               <SiNestjs title="Nest Js" />
               <SiTypescript title="Typescript" />
@@ -83,17 +90,23 @@ const Landing = () => {
             </div>
 
             <div className="col-lg-4 mb-5">
-            <h2 className="font-weight-bold">Database</h2>
-              <h6 className="mb-3">Experiece with MySQL, MongoDB, Postgres DB </h6>
-              <SiMysql  title="Mysql DB" />
+              <h2 className="font-weight-bold">Database</h2>
+              <h6 className="mb-3">
+                Experiece with MySQL (Type ORM), MongoDB (Mongoose), Oracle DB &
+                Postgres DB
+              </h6>
+              <SiMysql title="Mysql DB" />
               <SiMongodb title="Mongo DB" />
               <SiPostgresql title="Postgresql DB" />
               <SiOracle title="Oracle DB" />
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-4 mb-5">
-            <h2 className="font-weight-bold">Cloud & Devops</h2>
-              <h6 className="mb-3">Experiece with AWS S3, EC2, Secret Manager </h6>
+              <h2 className="font-weight-bold">Cloud & Devops</h2>
+              <h6 className="mb-3">
+                Experiece with AWS S3, EC2, Secret Manager & Grafana &
+                Prometheus
+              </h6>
               <SiAmazonaws />
               <SiGrafana />
               <SiPrometheus />
@@ -102,10 +115,11 @@ const Landing = () => {
         </div>
 
         <div>
+          <span className="top-border"></span>
           <h1 className="main-title">Projects</h1>
           <p className="main-para">
             I've worked with a range of Programming Languages and web
-            development world from Design to Back-End - {process.env.PUBLIC_URL}
+            development world from Design to Back-End
           </p>
 
           <div className="col-lg-12 mt-4">
@@ -152,6 +166,7 @@ const Landing = () => {
         </div>
 
         <div className="mt-5">
+          <span className="top-border"></span>
           <h1 className="main-title">About me</h1>
           <p className="main-para">
             Hello👋, I'm Kartik Swarnkar A middler at BNMU pursuing BCA
