@@ -16,6 +16,11 @@ import {
   SiPrometheus,
   SiAntdesign,
   SiOracle,
+  SiUbuntu,
+  SiGithub,
+  SiLinkedin,
+  SiMedium,
+  SiBookstack,
 } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import Header from "../components/Header";
@@ -107,9 +112,10 @@ const Landing = () => {
                 Experiece with AWS S3, EC2, Secret Manager & Grafana &
                 Prometheus
               </h6>
-              <SiAmazonaws />
-              <SiGrafana />
-              <SiPrometheus />
+              <SiAmazonaws title="Amazon Web Services - S3, EC2, Secret Manager, SNS" />
+              <SiGrafana title="Grafana" />
+              <SiPrometheus title="Prometheus" />
+              <SiUbuntu title="Ubuntu Server - Commands" />
             </div>
           </div>
         </div>
@@ -136,21 +142,21 @@ const Landing = () => {
                       <h4>{item.name}</h4>
                       <p>{item.description}</p>
                       <div className="text-right mt-4">
-                        {item.tools.map((t, index) => (
+                        {item.tools.map((element, index) => (
                           <button type="button" className="chips">
-                            {t}
+                            {element}
                           </button>
                         ))}
                       </div>
                       <div className="text-right mt-4">
-                        {item.githubLink ?? (
+                        {item.githubLink !== "" ? (
                           <Link
                             to={item.githubLink}
-                            className="btn btn-view mr-2"
+                            className="btn btn-view me-3"
                           >
                             Github
                           </Link>
-                        )}
+                        ) : null}
                         {item.projectLink !== "" ? (
                           <Link to={item.projectLink} className="btn btn-view">
                             Project
@@ -172,9 +178,55 @@ const Landing = () => {
             Hello👋, I'm Kartik Swarnkar A middler at BNMU pursuing BCA
             (Computer Application)👩‍💻. I am an enthusiastic👀 and a person take
             up new challenges🎯 and learn new skills⚙️. I love💛 meeting new
-            people👩🏽‍🚀, exchanging ideas💡 and spreading knowledge🗂 and
+            developers👩🏽‍🚀, exchanging ideas💡 and spreading knowledge🗂 and
             positivity🌈.
           </p>
+
+          <p className="main-para">
+          <SiBookstack /> <br />
+            <b>BCA (Bachelor of Computer Applications)</b> <br />
+            <i>Purnea College Purnea (BNMU), Bihar</i>
+          </p>
+        </div>
+
+        <div className="mt-5">
+          <hr />
+          <div className="row">
+            <div className="col-lg-6">
+              <p className="mt-4">EMAIL</p>
+              <p className="main-para">kartikkr555@gmail.com</p>
+            </div>
+            <div className="col-lg-6" style={{ textAlign: "right" }}>
+              <h2 className="mt-4">
+                <Link
+                  className="text-white me-3"
+                  to="https://github.com/codeincrypt"
+                >
+                  <SiGithub />
+                </Link>
+                <Link
+                  className="text-white me-3"
+                  to="https://www.linkedin.com/in/codeincrypt/"
+                >
+                  <SiLinkedin />
+                </Link>
+                <Link
+                  className="text-white me-3"
+                  to="https://medium.com/@codeincrypt"
+                >
+                  <SiMedium />
+                </Link>
+              </h2>
+            </div>
+          </div>
+          <div className="row justify-content-center mb-5 text-center">
+            <p>
+              ©️ Designed with 💖 by{" "}
+              <Link className="text-white" to="https://github.com/codeincrypt">
+                Kartik Swarnkar
+              </Link>{" "}
+            </p>
+          </div>
         </div>
       </div>
     </div>

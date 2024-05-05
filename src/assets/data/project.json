@@ -4,16 +4,24 @@
     "image": "admin6.jpg",
     "description": "",
     "projectLink": "https://codeincrypt-opensea-nextjs.netlify.app/",
-    "githubLink": "",
-    "tools": ["Next Js", "Javascript", "Netlify"]
+    "githubLink": "https://github.com/codeincrypt/opensea-nextjs-template",
+    "tools": ["Next Js", "Javascript"]
   },
   {
     "name": "Image Processing",
     "image": "admin7.jpg",
     "description": "",
     "projectLink": "https://codeincrypt-image-processing.netlify.app/",
-    "githubLink": "",
-    "tools": ["React Js", "Javascript", "Netlify"]
+    "githubLink": "https://github.com/codeincrypt/react-image-processing",
+    "tools": ["React Js", "Javascript"]
+  },
+  {
+    "name": "Inventory Application",
+    "image": "invoice-app.jpg",
+    "description": "",
+    "projectLink": "https://hilarious-mandazi-07cef4.netlify.app/",
+    "githubLink": "https://github.com/codeincrypt/inventory-react-typescript",
+    "tools": ["React Js", "Typescript"]
   },
   {
     "name": "Strong Password Generator",
@@ -21,7 +29,7 @@
     "description": "",
     "projectLink": "https://codeincrypt-password-generator.netlify.app/",
     "githubLink": "",
-    "tools": ["React Js", "Javascript", "Netlify"]
+    "tools": ["React Js", "Javascript"]
   },
   {
     "name": "Opensea HTML Template",
@@ -29,7 +37,7 @@
     "description": "",
     "projectLink": "https://codeincrypt-opensea-template.netlify.app",
     "githubLink": "",
-    "tools": ["HTML", "CSS", "Javascript", "Netlify"]
+    "tools": ["HTML", "CSS", "Javascript"]
   },
   {
     "name": "Crypto currency admin UI",
@@ -37,7 +45,7 @@
     "description": "",
     "projectLink": "https://exchange-adminui.netlify.app/",
     "githubLink": "",
-    "tools": ["React Js", "Javascript", "Netlify"]
+    "tools": ["React Js", "Javascript"]
   },
   {
     "name": "Geeks for Geeks UI",
@@ -45,15 +53,15 @@
     "description": "",
     "projectLink": "https://codeincrypt-geeksforgeeks.netlify.app/",
     "githubLink": "",
-    "tools": ["Next Js", "Javascript", "Netlify"]
+    "tools": ["Next Js", "Javascript"]
   },
   {
-    "name": "Cosmetic Ecommerce UI",
+    "name": "Elegent Makeup Ecommerce",
     "image": "admin3.jpg",
     "description": "",
     "projectLink": "https://elegente-nextjs.netlify.app/",
-    "githubLink": "",
-    "tools": ["Next Js", "Javascript", "Netlify"]
+    "githubLink": "https://github.com/codeincrypt/elegente-nextjs",
+    "tools": ["Next Js", "Javascript"]
   },
   {
     "name": "Random Password",
@@ -61,7 +69,23 @@
     "description": "",
     "projectLink": "https://codeincrypt-randompassword.netlify.app/",
     "githubLink": "",
-    "tools": ["HTML", "CSS", "Javascript", "Netlify"]
+    "tools": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "name": "Notes App",
+    "image": "notes-app.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-notes-app.netlify.app/",
+    "githubLink": "https://github.com/codeincrypt/notes-app-javascript",
+    "tools": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "name": "Image Search",
+    "image": "image-search.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-image-search.netlify.app/",
+    "githubLink": "https://github.com/codeincrypt/image-search-javascript",
+    "tools": ["HTML", "CSS", "Javascript"]
   },
   {
     "name": "Text To Speech",
@@ -69,7 +93,7 @@
     "description": "",
     "projectLink": "https://codeincrypt-texttovoice.netlify.app/",
     "githubLink": "",
-    "tools": ["HTML", "CSS", "Javascript", "Netlify"]
+    "tools": ["HTML", "CSS", "Javascript"]
   },
   {
     "name": "Weather App",
@@ -77,6 +101,6 @@
     "description": "",
     "projectLink": "https://codeincrypt-weather-app.netlify.app/",
     "githubLink": "",
-    "tools": ["HTML", "CSS", "Javascript", "API", "Netlify"]
+    "tools": ["HTML", "CSS", "Javascript", "API"]
   }
 ]
