@@ -29,7 +29,9 @@ const Resume = () => {
               <div className="sidebarcenter">
                 <h1 className="name">{data.personal.name}</h1>
                 <h4 className="stacks">{data.personal.tech}</h4>
-                <p className="paragraph">{data.personal.aboutus}</p>
+                <p className="paragraph" style={{ width: "400px" }}>
+                  {data.personal.aboutus}
+                </p>
 
                 <ul className="mylist-array margintop">
                   <a href="#summary" className="mylist">
@@ -78,9 +80,11 @@ const Resume = () => {
           <div className="col-lg-5 rightsidebar">
             <div id="summary" className="summary ">
               <h4 className="title">Summary</h4>
-              {data.about.map((item, index) => (
-                <p className="card-text4 mb-0">{item}</p>
-              ))}
+              <ul>
+                {data.about.map((item, index) => (
+                  <li className="card-text4 mb-0">{item}</li>
+                ))}
+              </ul>
             </div>
 
             <div id="work-experience" className="work-experience margintop">

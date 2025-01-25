@@ -9,9 +9,10 @@
   },
   "about": [
     "Software Engineer possessing Comprehensive 5 years of experience as IT Professional",
-    "4.5+ years of experience as Node Js Developer",
+    "5+ years of experience as Node Js Developer",
     "Hands on experience developing web-based applications with Node Js with JavaScript & Typescript, Express in specific with React Js framework & Redux library.",
     "Experience on Cross Platform Server & Client-Server side applications design and development using Javascript language",
+    "3+ years of experience as Python Development with Fast API",
     "Experience on ORACLE, MySQL, MongoDB & SQL Server concepts. Also DB Design, DB normalization and writing SQL queries."
   ],
   "socialMedia": [
@@ -38,9 +39,21 @@
   ],
   "workExperience" : [
     {
-      "position" : "Node Js & Blockchain Developer (React Js)",
+      "position" : "Senior Software Engineer (MERN)",
+      "organisation" : "Collabera Digital (Ascendion)",
+      "date" : "APR 2024 - PRESENT",
+      "summary" : [
+        "Developed an infrastructure automation project using React.js for the front end and Node.js for the back end, streamlining workflows and improving efficiency through automation, using database Postgres DB.",
+        "Upgraded components by converting Figma designs to React code, utilizing Storybook for components, ensuring consistency and reusability in UI components in Node Js & React Js. Database using Sqlite"
+      ],
+      "technology" : [
+        "Harness", "Python", "Node Js", "React Js", "Express", "Postgres", "Sqlite", "Storybook", "AWS", "Git", "Bitbuket", "Jira", "Docker"
+      ]
+    },
+    {
+      "position" : "Software Engineer (MERN, Blockchain)",
       "organisation" : "Hashcash Consultants",
-      "date" : "AUG 2021 - PRESENT",
+      "date" : "AUG 2021 - MAR - 2024",
       "summary" : [
         "Created & Implemented RESTful API for Blockchain Exchange services",
         "Creating detailed functional specifications, work-flow diagrams & relevant documentation.",
@@ -70,10 +83,10 @@
   ],
   "projects" : [
     {
-      "name" : "GeeksForGeeks",
-      "summary" : ["Sample UI Template project of GeeksForGeeks build in Next Js, MCQ, Course & More."],
-      "technology" : ["Next Js", "React Js", "Netlify"],
-      "link": "https://codeincrypt-geeksforgeeks.netlify.app/"
+      "name" : "Resume Builder",
+      "summary" : ["Created resume builder (clone of Resume.io). You can use your gmail account to login into resume builder and create your resume with different types of templates."],
+      "technology" : ["React Js", "Firebase", "Netlify", "OAuth"],
+      "link": "https://codeincrypt-resume-builder.netlify.app/"
     },
     {
       "name" : "Exchange Admin UI",
@@ -115,13 +128,13 @@
   "skills": [
     {"name" :"Blockchain", "details":"Web3, Ethereum, Stellar, Cardano, Algorand, Bitcoin & More Cryptocurrencies"},
     {"name" :"Cryptography", "details":"Encryption, Hashing"},
-    {"name" :"Programming Languages", "details":"Typescript, Javascript, Node Js (Server Side), Redux, PHP, Socket.io, Blockchain, Cryptocurrency Network, Web3"},
+    {"name" :"Programming Languages", "details":"Typescript, Javascript, Node Js (Server Side), Python, Redux, PHP, Socket.io, Blockchain, Cryptocurrency Network, Web3"},
     {"name" :"UI Web Technologies", "details" :"HTML, CSS, JavaScript, ES6, Bootstrap, Material UI, React Bootstrap"},
-    {"name" :"Databases", "details":"MySQL, MongoDB, Oracle DB"},
+    {"name" :"Databases", "details":"MySQL, MongoDB, Oracle DB, Postgres, Sqlite"},
     {"name" :"Version Controls", "details":"Git, Github, Bitbucket"},
-    {"name" :"Frameworks / Library", "details":"Codeigniter (MVC), React Js, Next Js, Redux"},
-    {"name" :"Web / Application Servers", "details":"Apache, HTTP Web Server."},
-    {"name" :"Cloud Platform", "details":"AWS Cloud, AWS S3, Dedicated Ubuntu / CentOs Linux Server"},
+    {"name" :"Frameworks / Library", "details":"Harness, React Js, Next Js, Redux, Codeigniter (MVC)"},
+    {"name" :"Web / Application Servers", "details":"Docker, Nginx, Apache, HTTP Web Server"},
+    {"name" :"Cloud Platform", "details":"AWS Cloud (S3, SNS, KMS, Vault), Hashicorp Vault, Dedicated Ubuntu / CentOs Linux Server"},
     {"name" :"IDE Editor", "details":"Visual Studio Code, Sublime Text3, Notepad++, Atom, Bracket"}
   ],
   "education" : [

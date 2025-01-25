@@ -12,7 +12,7 @@ import {
   SiAmazonaws,
   SiTypescript,
   SiGrafana,
-  SiNestjs,
+  SiPython,
   SiPrometheus,
   SiAntdesign,
   SiOracle,
@@ -75,7 +75,7 @@ const Landing = () => {
             <div className="col-lg-4 mb-5">
               <h2 className="font-weight-bold">Front-End</h2>
               <h6 className="mb-3">
-                Experiece with Javascript & Typescript React Js & Next Js
+                Experiece with Javascript & Typescript React Js & Next Js, Harness
               </h6>
               <FaReact title="React Js" />
               <SiNextdotjs title="Next Js" />
@@ -86,10 +86,10 @@ const Landing = () => {
             <div className="col-lg-4 mb-5">
               <h2 className="font-weight-bold">Back-End</h2>
               <h6 className="mb-3">
-                Experiece with Javascript & Typescript in Node Js
+                Experiece with Javascript & Typescript in Node Js and Python
               </h6>
               <FaNodeJs title="Node Js" />
-              <SiNestjs title="Nest Js" />
+              <SiPython title="Python" />
               <SiTypescript title="Typescript" />
               <SiJavascript title="Javascript" />
             </div>
@@ -109,7 +109,7 @@ const Landing = () => {
             <div className="col-lg-4 mb-5">
               <h2 className="font-weight-bold">Cloud & Devops</h2>
               <h6 className="mb-3">
-                Experiece with AWS S3, EC2, Secret Manager & Grafana &
+                Experiece with AWS (S3, EC2, SNS, KMS, Secret Manager), Grafana &
                 Prometheus
               </h6>
               <SiAmazonaws title="Amazon Web Services - S3, EC2, Secret Manager, SNS" />
@@ -194,7 +194,7 @@ const Landing = () => {
           <div className="row">
             <div className="col-lg-6">
               <p className="mt-4">EMAIL</p>
-              <p className="main-para">kartikkr555@gmail.com</p>
+              <p className="main-para">dev.kartikswarnkar@gmail.com</p>
             </div>
             <div className="col-lg-6" style={{ textAlign: "right" }}>
               <h2 className="mt-4">

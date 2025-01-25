@@ -1,5 +1,29 @@
 [
   {
+    "name": "Resume Builder",
+    "image": "resume-builder.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-resume-builder.netlify.app/",
+    "githubLink": "https://github.com/codeincrypt/resume-builder-react",
+    "tools": ["React Js", "Firebase", "RTK"]
+  },
+  {
+    "name": "To Do App",
+    "image": "to-do-app.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-todo-rtk.netlify.app/",
+    "githubLink": "https://github.com/codeincrypt/todo-list-react-rtk",
+    "tools": ["React Js", "Javascript", "RTK"]
+  },
+  {
+    "name": "Storybook",
+    "image": "storybook.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-storybook-design-system.netlify.app/",
+    "githubLink": "https://github.com/codeincrypt/react-design-system-storybook",
+    "tools": ["Storybook", "React Js"]
+  },
+  {
     "name": "Opensea Next Js (API)",
     "image": "admin6.jpg",
     "description": "",
