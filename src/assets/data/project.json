@@ -1,5 +1,29 @@
 [
   {
+    "name": "Cinema Hub",
+    "image": "cinema.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-cinema-hub.netlify.app/",
+    "githubLink": "https://github.com/codeincrypt/cinema-hub-react",
+    "tools": ["React Js"]
+  },
+  {
+    "name": "Crypto & Encoding Tools",
+    "image": "crypto.jpg",
+    "description": "",
+    "projectLink": "https://crypto-encoding-tools.netlify.app/",
+    "githubLink": "https://github.com/codeincrypt/crypto-encoding-tools",
+    "tools": ["React Js"]
+  },
+  {
+    "name": "EMS",
+    "image": "ems.jpg",
+    "description": "",
+    "projectLink": "https://codeincrypt-ems-template.netlify.app/",
+    "githubLink": "https://github.com/codeincrypt/ems-template",
+    "tools": ["React Js"]
+  },
+  {
     "name": "Resume Builder",
     "image": "resume-builder.jpg",
     "description": "",

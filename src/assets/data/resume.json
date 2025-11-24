@@ -8,9 +8,9 @@
     "contact": ""
   },
   "about": [
-    "Software Engineer possessing Comprehensive 5 years of experience as IT Professional",
-    "5+ years of experience as Node Js Developer",
-    "Hands on experience developing web-based applications with Node Js with JavaScript & Typescript, Express in specific with React Js framework & Redux library.",
+    "Software Engineer possessing Comprehensive 6 years of experience as IT Professional",
+    "6+ years of experience as Node Js Developer",
+    "Hands on experience developing web-based applications with Node Js with JavaScript & Typescript, Express in specific with React Js, Next Js framework & Redux library.",
     "Experience on Cross Platform Server & Client-Server side applications design and development using Javascript language",
     "3+ years of experience as Python Development with Fast API",
     "Experience on ORACLE, MySQL, MongoDB & SQL Server concepts. Also DB Design, DB normalization and writing SQL queries."
@@ -20,6 +20,11 @@
       "name": "github",
       "link": "https://github.com/codeincrypt",
       "icon": "fa-github"
+    },
+    {
+      "name": "medium",
+      "link": "https://medium.com/@codeincrypt",
+      "icon": "fa-medium"
     },
     {
       "name": "linkedin",
@@ -39,9 +44,23 @@
   ],
   "workExperience" : [
     {
+      "position" : "Senior Software Engineer",
+      "organisation" : "NuSummit (TATA-AIA)",
+      "date" : "JUN 2025 - JAN 2026",
+      "summary" : [
+        "Developed and optimized lead generation modules, improving performance and scalability for bulk data upload workflows.",
+        "Designed and implemented RESTful APIs in Node.js for quotation generation, enhancing automation and reducing manual effort.",
+        "Integrated and utilized Next.js APIs for dynamic quotation management with improved frontend-backend interaction.",  
+        "Diagnosed and resolved backend performance issues, refactoring code to improve API response time and maintainability."
+      ],
+      "technology" : [
+        "Node Js", "React Js", "Express", "Postgres", "Sequelize", "Git", "Jira", "Docker"
+      ]
+    },
+    {
       "position" : "Senior Software Engineer (MERN)",
       "organisation" : "Collabera Digital (Ascendion)",
-      "date" : "APR 2024 - PRESENT",
+      "date" : "APR 2024 - MAY 2025",
       "summary" : [
         "Developed an infrastructure automation project using React.js for the front end and Node.js for the back end, streamlining workflows and improving efficiency through automation, using database Postgres DB.",
         "Upgraded components by converting Figma designs to React code, utilizing Storybook for components, ensuring consistency and reusability in UI components in Node Js & React Js. Database using Sqlite"
@@ -83,12 +102,6 @@
   ],
   "projects" : [
     {
-      "name" : "Resume Builder",
-      "summary" : ["Created resume builder (clone of Resume.io). You can use your gmail account to login into resume builder and create your resume with different types of templates."],
-      "technology" : ["React Js", "Firebase", "Netlify", "OAuth"],
-      "link": "https://codeincrypt-resume-builder.netlify.app/"
-    },
-    {
       "name" : "Exchange Admin UI",
       "summary" : ["A modern & user-friendly Binance admin UI layout with various components such as navigation menus, data tables, charts, and forms, enabling efficient monitoring, organization, and interaction with backend systems, enhancing user experience and simplifying administrative tasks."],
       "technology" : ["React Js", "Netlify"],
@@ -128,11 +141,11 @@
   "skills": [
     {"name" :"Blockchain", "details":"Web3, Ethereum, Stellar, Cardano, Algorand, Bitcoin & More Cryptocurrencies"},
     {"name" :"Cryptography", "details":"Encryption, Hashing"},
-    {"name" :"Programming Languages", "details":"Typescript, Javascript, Node Js (Server Side), Python, Redux, PHP, Socket.io, Blockchain, Cryptocurrency Network, Web3"},
+    {"name" :"Programming Languages", "details":"Node Js (Server Side), Python, Typescript, Javascript, Redux, PHP, Blockchain, Cryptocurrency Network, Web3"},
     {"name" :"UI Web Technologies", "details" :"HTML, CSS, JavaScript, ES6, Bootstrap, Material UI, React Bootstrap"},
     {"name" :"Databases", "details":"MySQL, MongoDB, Oracle DB, Postgres, Sqlite"},
     {"name" :"Version Controls", "details":"Git, Github, Bitbucket"},
-    {"name" :"Frameworks / Library", "details":"Harness, React Js, Next Js, Redux, Codeigniter (MVC)"},
+    {"name" :"Frameworks / Library", "details":"Harness, React Js, Next Js, Redux, Express, Fastify, Socket.io, Fast API, Codeigniter (MVC)"},
     {"name" :"Web / Application Servers", "details":"Docker, Nginx, Apache, HTTP Web Server"},
     {"name" :"Cloud Platform", "details":"AWS Cloud (S3, SNS, KMS, Vault), Hashicorp Vault, Dedicated Ubuntu / CentOs Linux Server"},
     {"name" :"IDE Editor", "details":"Visual Studio Code, Sublime Text3, Notepad++, Atom, Bracket"}
@@ -156,11 +169,15 @@
   ],
   "language" : [
     {
+      "name" :"English",
+      "level" :"Intermediate"
+    },
+    {
       "name" :"Hindi",
       "level" :"Proficient"
     },
     {
-      "name" :"English",
+      "name" :"Bengali",
       "level" :"Intermediate"
     }
   ]
